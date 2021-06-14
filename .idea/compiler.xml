@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="httpserver" />
+        <module name="cmppport" />
+        <module name="sgipport" />
+        <module name="report" />
+        <module name="smscommon" />
+        <module name="smstool" />
+        <module name="cmppserver" />
+        <module name="smsroute" />
+        <module name="BatchTestAlarm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="canal-test" target="1.8" />
+      <module name="cmpp-rabbit-server8" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common-swagger" target="1.8" />
+      <module name="customer-backend" target="1.8" />
+      <module name="customer-service" target="1.8" />
+      <module name="customer-web-api" target="1.8" />
+      <module name="dianlireport" target="1.8" />
+      <module name="dianlisendundelivlstat" target="1.8" />
+      <module name="dianlisendunrespstat" target="1.8" />
+      <module name="dianlistatrespupdate" target="1.8" />
+      <module name="downportconfig-backend" target="1.8" />
+      <module name="downportconfig-service" target="1.8" />
+      <module name="kafkatest" target="1.8" />
+      <module name="readclient" target="1.8" />
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+      <module name="reportshow" target="1.8" />
+      <module name="smsgate-cdc" target="1.8" />
+      <module name="smsgate-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cmpp-rabbit-server8" options="" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+      <module name="smsgate-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/BatchTestAlarm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BatchTestAlarm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cmppport/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cmppport/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cmppserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cmppserver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/httpserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/httpserver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/report/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/report/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sgipport/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sgipport/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smscommon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smscommon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smsroute/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smsroute/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smstool/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/smstool/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

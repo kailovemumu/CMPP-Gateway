@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.dorox</groupId>
+    <artifactId>smsgate-v8-rabbit</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>httpserver</module>
+        <module>cmppport</module>
+        <module>sgipport</module>
+        <module>cmppserver</module>
+        <module>smsroute</module>
+        <module>smscommon</module>
+        <module>report</module>
+        <module>BatchTestAlarm</module>
+        <module>smstool</module>
+
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <eventuateTramVersion>0.24.0.RELEASE</eventuateTramVersion>
+        <springBootVersion>2.2.6.RELEASE</springBootVersion>
+        <eventuateUtilVersion>0.4.0.RELEASE</eventuateUtilVersion>
+        <eventuateTramViewVersion>0.2.1.RELEASE</eventuateTramViewVersion>
+        <eventuateMessagingKafkaVersion>0.9.0.RELEASE</eventuateMessagingKafkaVersion>
+
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
